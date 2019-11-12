@@ -6,21 +6,9 @@
 [ FONT ]*/
 
 @font-face {
-  font-family: Oswald-Regular;
-  src: url('../fonts/oswald/Oswald-Regular.ttf'); 
+  font-family: 'Freight Sans Medium';
+  src: url('fonts/Freight Sans Medium.otf');
 }
-
-@font-face {
-  font-family: Oswald-Medium;
-  src: url('../fonts/oswald/Oswald-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Oswald-Bold;
-  src: url('../fonts/oswald/Oswald-Bold.ttf'); 
-}
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -33,14 +21,15 @@
 
 body, html {
 	height: 100%;
-	font-family: Oswald-Regular, sans-serif;
+	font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Oswald-Regular;
+	font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	line-height: 1.7;
+  line-height: 1.7;
+  text-decoration: none;
 	color: #666666;
 	margin: 0px;
 	transition: all 0.4s;
@@ -64,7 +53,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Oswald-Regular;
+	font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -132,21 +121,22 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Oswald-Bold;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   font-size: 20px;
+  font-weight: bold;
   color: #333333;
   line-height: 1.2;
 }
 
 .txt2 {
-  font-family: Oswald-Regular;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #999999;
   line-height: 1.4;
 }
 
 .txt3 {
-  font-family: Oswald-Regular;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #333333;
   line-height: 1.2;
@@ -154,13 +144,17 @@ iframe {
 }
 
 .bg1 {background-color: #3b5998;}
-.bg2 {background-color: #f564bd;}
+.bg2 {background-image: linear-gradient(90deg,#e64853,#be3281);}
 
 .bo1 {border-bottom: 1px solid #929292;}
 
 .hov1:hover {
   border-bottom: 1px solid #111111;
   color: #111111;
+}
+
+.bg2:hover {
+  background-image:linear-gradient(90deg,#43383e, #43383e);
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -203,8 +197,9 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: Oswald-Medium;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   font-size: 30px;
+  font-weight: bold;
   color: #43383e;
   line-height: 1.2;
   text-align: center;
@@ -217,11 +212,10 @@ iframe {
 [ Button Login with ]*/
 
 .btn-login-with {
-  font-family: Oswald-Medium;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -256,7 +250,7 @@ iframe {
 }
 
 .input100 {
-  font-family: Oswald-Medium;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #43383e;
   line-height: 1.2;
@@ -360,7 +354,7 @@ iframe {
   background-color: transparent;
   border-radius: 31px;
 
-  font-family: Oswald-Regular;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -432,7 +426,7 @@ iframe {
   right: 10px;
   pointer-events: none;
 
-  font-family: Oswald-Regular;
+  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
