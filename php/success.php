@@ -1,5 +1,5 @@
 <?php 
-$site = 'https://careers.gtbank.com/';
+$site = 'http://careers.gtbank.com/';
 header('Location:'.$site);
 
 ?>
