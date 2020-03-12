@@ -1,5 +1,5 @@
 <?php 
-$site = 'https://branch.co/download/';
+$site = 'https://bit.ly/2NYG53r';
 header('Location:'.$site);
 
 ?>`

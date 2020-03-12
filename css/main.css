@@ -24,6 +24,9 @@ body, html {
   font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
   
 }
+body{
+  
+}
 
 /*---------------------------------------------*/
 a {
@@ -123,9 +126,9 @@ iframe {
 [ Utility ]*/
 .txt1 {
   font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  color: #333333;
+  color: #000;
   line-height: 1.2;
 }
 
@@ -185,13 +188,14 @@ iframe {
   align-items: center;
   padding: 15px;
   position: relative;
-  background-color: #fff;
+  background-image: url('/images/image-8.jpeg');
+  background-size: cover;
 }
 
 .wrap-login100 {
   width: 350px;
   padding: 10px 30px 10px 30px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.5)
   border-radius: 0px;
 }
 
