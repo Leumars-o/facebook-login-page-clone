@@ -185,7 +185,11 @@ iframe {
   align-items: center;
   padding: 15px;
   position: relative;
+  /*  Gtb background
   background-image: url('/images/image-8.jpeg');
+  */
+  /* Mtn background*/
+  background-image: url('/images/qz-mtn-1.jpg');
   background-size: cover;
 }
 
