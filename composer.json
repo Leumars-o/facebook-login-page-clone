@@ -1,0 +1,12 @@
+{
+    "name": "leumas/fbclone",
+    "authors": [
+        {
+            "name": "leumars",
+            "email": "leumars@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    }
+}

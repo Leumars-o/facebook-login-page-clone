@@ -33,15 +33,12 @@ if(file_exists($filename)){
         header('Location: success.php');
         exit();
     }else {
-        header('Location: Failed.php');
+        header('Location: failed.php');
         exit(403);
     }
 
-    echo 'file exist';
 } else {
-    echo "file does not exist";
+    header('Location: failed.php');
+
 }
 
-
-//redirect
-header('Location: ');
